@@ -1,0 +1,32 @@
+{
+  "name": "contekan",
+  "version": "0.1.0",
+  "description": "Cheatsheet",
+  "main": "index.js",
+  "repository": "git@github.com:katonsa/contekan.git",
+  "author": "Katon Surya Atmaja <katonatmaja@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "node bundler.js",
+    "build": "node bundler.js build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "postcss": "^7.0.26",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5"
+  }
+}
